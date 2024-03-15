@@ -1,0 +1,82 @@
+.d-none {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+/* topbar lowertopbar */
+@media only screen and (max-width: 768px) {
+    #topbar {
+      display: none !important;
+    }
+    #lowertopbar .awardset {
+        display: none !important;
+      }
+  }
+  
+.section-padding {
+  padding: 60px 0 !important;
+}
+
+/* index services page */
+#servicestitle h3{
+    background-color: rgb(255, 255, 255) !important;
+    color: #373232;
+}
+
+/* index services page */
+#servicesgrids .grid:hover h3 {
+    background-color: transparent !important;
+}
+ 
+#VisionMission .ctaPara{
+    color: antiquewhite !important;
+}
+
+#VisionMission .ctaPara {
+  padding-bottom: 20px;
+}
+
+@media (max-width: 767px){
+  .fun-fact{
+    padding: 10px 10px 10px!important;
+  }
+}
+
+
+/* products page */
+.tablink-btn {
+  background-color: #f5f2f2;
+  font-weight: 500;
+  color: #242424;
+  width: 100%;
+  padding: 11px 137px !important;
+  display: block;
+  text-transform: uppercase;
+  border: none;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.activetab {
+  background-color: #fdc900 !important;
+  font-weight: 500;
+  color: #242424;
+  width: 100%;
+  padding: 11px 137px !important;
+  display: block;
+  text-transform: uppercase;
+  border: none;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.tablink-btn:hover {
+  background-color: #fdc900;
+}
+
+.activebtn {
+  background-color: #fdc900;
+}
